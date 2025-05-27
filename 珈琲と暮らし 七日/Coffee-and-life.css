@@ -1,0 +1,136 @@
+@charset "UTF-8";
+/*共通部分
+---------------------------*/
+html {
+    font-size: 112.5%;    
+}
+body{
+    line-height: 1.7;
+    color: #fff;
+    background-color: black;
+}
+html, body {
+  overflow-x: hidden; /* 横スクロールを防ぐ */
+}
+.text{
+    font-family:"Noto Sans JP","sans"
+}
+/*ヘッダー
+--------------------------*/
+.header-cover{
+    background-image: url("ogasuta458A7878_TP_V.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height:100vh;
+}
+.page-title{
+    text-align: center;
+    margin: 0rem auto 4rem;
+    font-size: 4rem;
+    padding-top: 7rem;
+    font-family: "Noto Serif JP","serif";
+}
+p{
+    text-align: center;
+    font-size: 1.3rem;
+    max-width: 630px;
+    margin: 0 auto;
+}
+/*メニュー欄
+-------------------------*/
+
+h2{font-size: 10rem;}
+.grid {
+    display: grid;
+    gap: 2rem 1.5rem;
+    grid-template-columns: repeat(2,1fr);
+    text-align: center;
+}
+.item {
+    width: 100%;
+}
+.item img{
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    border-radius: 16px;
+    width: 100%;
+}
+.item p{
+    font-size: .875rem;
+}
+/*店舗情報
+------------------------*/
+.photo img{
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    border-radius: 12px;
+}
+.info{
+    width:100%;
+    margin: 2rem 1rem;
+    border-spacing: 0;
+    padding: 1rem;
+    text-align: center;
+}
+.info th,
+.info td{
+    border-bottom:1px solid #fff;
+    padding: .5rem;
+}
+/*SNSリンク*/
+.sns-link {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  list-style: none;
+  margin-bottom: 3rem;
+}
+
+.sns-link a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 3.75rem;
+  height: 3.75rem;
+  background-color: #fff;
+  color: green;
+  font-size: 2rem;
+  border-radius: 50%;
+  text-decoration: none;
+}
+/*問い合わせフォーム
+-------------------------*/
+.white-cover {
+    background-color: #fff;
+    color: black;
+
+}
+.contact{
+    text-align: center;
+}
+.white-cover form p{
+    text-align: left;
+    margin-left: 10%;
+}
+.white-cover input,
+.white-cover textarea{
+    border: 1px solid gray;
+    width: 80%;
+    padding: .5rem;
+    margin-bottom: .5rem;
+}
+.submit{
+    text-align: center;
+}
+.submit input{
+    background-color: green;
+    color: #fff;
+    border: none;
+    padding: .5rem 1rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin-bottom: 1rem;
+}
+
